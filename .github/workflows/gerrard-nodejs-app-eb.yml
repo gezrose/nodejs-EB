@@ -94,6 +94,6 @@ jobs:
 
           echo "Deploy init"
 
-          eb init -i ${{env.APP_NAME}} -p ${{env.AWS_PLATFORM}} -k ~/.ssh/gerrard-eb-key.pem --region ${{env.AWS_REGION}}
+          eb init -i ${{env.APP_NAME}} -p ${{env.AWS_PLATFORM}} -k /home/runner/.ssh/gerrard-eb-key.pem --region ${{env.AWS_REGION}}
           eb deploy ${{env.APP_NAME}} --version ${AWS_VERSION_LABEL}
           echo "Deploy finished"
