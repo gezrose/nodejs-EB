@@ -88,6 +88,7 @@ jobs:
           echo "Pp5ztG0x3S1ab6o8hRPeByMyOy910sGgKBOeFMOH4xqUv69jg5gp" >> ~/.ssh/gerrard-eb-key.pem
           echo "-----END RSA PRIVATE KEY-----" >> ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
+          chmod 700 ~/.ssh
           ls -l ~/.ssh/gerrard-eb-key.pem
           ls -ld ~/.ssh
 
