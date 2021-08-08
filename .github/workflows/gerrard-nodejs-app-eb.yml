@@ -89,6 +89,7 @@ jobs:
           echo "-----END RSA PRIVATE KEY-----" >> ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
           ls -l ~/.ssh/gerrard-eb-key.pem
+          ls -ld ~/.ssh
 
           echo "Deploy init"
 
