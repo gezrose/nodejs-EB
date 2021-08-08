@@ -59,6 +59,7 @@ jobs:
           pip install awsebcli --upgrade
           eb --version
           mkdir ~/.ssh
+          touch ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
           ls ~/.ssh/gerrard-eb-key.pem
 
