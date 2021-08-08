@@ -58,8 +58,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install awsebcli --upgrade
           eb --version
+          mkdir ~/.ssh
+          cat ${{ secrets.AWS_SSH_KEY }} > ~/.ssh/gerrard-eb-key.pem
+          chmod 400 ~/.ssh/gerrard-eb-key.pem
 
           echo "Deploy init"
+
           eb init -i ${{env.APP_NAME}} -p ${{env.AWS_PLATFORM}} -k ${{secrets.AWS_ID}} --region ${{env.AWS_REGION}}
           eb deploy ${{env.APP_NAME}} --version ${AWS_VERSION_LABEL}
           echo "Deploy finished"
