@@ -59,7 +59,7 @@ jobs:
           pip install awsebcli --upgrade
           eb --version
           mkdir ~/.ssh
-          cat ${{ secrets.AWS_SSH_KEY }} > ~/.ssh/gerrard-eb-key.pem
+          /usr/bin/cat ${{ secrets.AWS_SSH_KEY }} > ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
 
           echo "Deploy init"
