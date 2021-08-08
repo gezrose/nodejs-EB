@@ -60,8 +60,9 @@ jobs:
           eb --version
           mkdir ~/.ssh
           touch ~/.ssh/gerrard-eb-key.pem
+          echo ${{ secrets.AWS_SSH_KEY }} > ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
-          ls ~/.ssh/gerrard-eb-key.pem
+          ls -l ~/.ssh/gerrard-eb-key.pem
 
           echo "Deploy init"
 
