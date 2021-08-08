@@ -61,6 +61,32 @@ jobs:
           mkdir ~/.ssh
           touch ~/.ssh/gerrard-eb-key.pem
           echo "-----BEGIN RSA PRIVATE KEY-----" > ~/.ssh/gerrard-eb-key.pem
+          echo "MIIEowIBAAKCAQEAidk2+6+wvwWZQAUEFYCmUIF/bxcIRMLPxgyhEU9aYTaJ8cwe" >> ~/.ssh/gerrard-eb-key.pem
+          echo "OmzmYx9YC2yfu6ievoIMNqOL+uz/HW/DEDoMhtn6u9HuFg4vPHw2jbZtQ9vSStrJ" >> ~/.ssh/gerrard-eb-key.pem
+          echo "tPTRiwVyt0/ScIYvF5xFA14hscJB5+sHHy3V6h9LrE3+9XpljKFzKphg4+SCWKqZ" >> ~/.ssh/gerrard-eb-key.pem
+          echo "J+clEso7aafiF/lTGdb+BaRrglSMSp6phjx2Iy1x4gkfCcPeMtmJeGBqZ1rb+Uaw" >> ~/.ssh/gerrard-eb-key.pem
+          echo "Mh26SETgTUn0mHIyteDllcZieZzlfKgNQ8VmaGsCq0kdFasHt5ndiSpomMWX9KM0" >> ~/.ssh/gerrard-eb-key.pem
+          echo "76m3G16fmPVPb5rrd8YZPMO3sOQGV/KbwIXvrQIDAQABAoIBAD4RfS1klVvdpHxs" >> ~/.ssh/gerrard-eb-key.pem
+          echo "BcO80qYrOPsHTuTPJwjRBPErXtGo4gHq262I/U+ifF1ggqfXq+qx2df8WfoZHmHd" >> ~/.ssh/gerrard-eb-key.pem
+          echo "weIbkSpjGf/Z7a8moeRFNbcnbhmA8DZePzZoibVkNZwOp/2cnbWu2nBCwT8t7ckE" >> ~/.ssh/gerrard-eb-key.pem
+          echo "TYefdtNdVhB2aheUDgd9ZsLGK9JQlYzW+8tfrRgb0s84b9DUeX5yjG0XArzlaGBA" >> ~/.ssh/gerrard-eb-key.pem
+          echo "LOZLetoG1ajQlycrTruSP76risFLLLVkXX+sq1Xg4Vx8f9GYW3TLaI0ai1GhAv76" >> ~/.ssh/gerrard-eb-key.pem
+          echo "TfMxbeG0i8qox1oyyeDtoi/Ewv4q0nFG+h5l6bsWGcdFkh1ikM9bRjahI291dAjE" >> ~/.ssh/gerrard-eb-key.pem
+          echo "3Spc++0CgYEA2/KmwecE2dr3851F81EhXzT63D8XlhDCy13GjGl+2YKMjEGlHc1p" >> ~/.ssh/gerrard-eb-key.pem
+          echo "jFZj5yaOW9eXAo5PdlWwDN+7cY6hpXdV1xpC8yaL7jzGu5tLBZEJ3IndXownSBGE" >> ~/.ssh/gerrard-eb-key.pem
+          echo "RPQdp8/OD0c4wLOfwhfAbMf20JL8K7j3YlxTmw1/Wgw8OqZpXpamt0cCgYEAoHGM" >> ~/.ssh/gerrard-eb-key.pem
+          echo "baDa3Rqlo1KWbUB8gxSvwj8AzpLWgwech8M3fXhRJ/p5FgzIM8R9YN1ygwvo0s+d" >> ~/.ssh/gerrard-eb-key.pem
+          echo "u3zBa47T7OyRhmqUnVtXvBILwErsJDTuHeKkoFrHt9JMb72g5mMN+LlyrC1ZgynJ" >> ~/.ssh/gerrard-eb-key.pem
+          echo "N2fRNN8qlo+lwfXXXnFS0HrD6x+wlpKVW+GCg2sCgYB1X1cH8J1RGJ3q3gm/H5Nc" >> ~/.ssh/gerrard-eb-key.pem
+          echo "eCxKrkyK42TgG6nhskZkEluoWTug3MYvgsaLSrL7ZeALGCBleLKbHCWuIrw2Tal8" >> ~/.ssh/gerrard-eb-key.pem
+          echo "QWJq2S4hM0OmR+fQD6cgjl2Yn9gyiE56cX8F10oSMyKhCvn9HKmuI0Od6GIzfuBd" >> ~/.ssh/gerrard-eb-key.pem
+          echo "GAHxo1FLn23gqn9eX6yV7wKBgQCEIr/6kZ1ut0FvLtdAhvmEowbVPToW5wvPwfcC" >> ~/.ssh/gerrard-eb-key.pem
+          echo "QJ50sSB1gm0y4bgIGmz/16E1mBtZcy9+d5J8WJbk6zg2sZRPvCiXdW1EIvA0KXtq" >> ~/.ssh/gerrard-eb-key.pem
+          echo "FXxrrBgLpiDZbh0TYMTi8Sgl8PtlcIaNIO1FU/4pHYjwIt4Ko94GYPT1sZWnjHWB" >> ~/.ssh/gerrard-eb-key.pem
+          echo "xEnOnQKBgHEp5oPtyT1dL7T7m0MC3BPSnh1I24piNB9douQ7OTkOflYg7HAbzrui" >> ~/.ssh/gerrard-eb-key.pem
+          echo "o31mKW5juPwoQ8+DEf1/bIsZZnksgb2dPNOYbwNoCVIvNIWALI7E2Ce32i+hqOpY" >> ~/.ssh/gerrard-eb-key.pem
+          echo "Pp5ztG0x3S1ab6o8hRPeByMyOy910sGgKBOeFMOH4xqUv69jg5gp" >> ~/.ssh/gerrard-eb-key.pem
+          echo "-----END RSA PRIVATE KEY-----" >> ~/.ssh/gerrard-eb-key.pem
           chmod 400 ~/.ssh/gerrard-eb-key.pem
           ls -l ~/.ssh/gerrard-eb-key.pem
 
