@@ -1,7 +1,7 @@
 name: Deploy Node app on AWS Elastic Beanstalk
 
 env:
-  APP_NAME: gerrard-nodejs-app
+  APP_NAME: gerrard-nodejs-app-dev
   S3_BUCKET: gerrard-nodejs-app-bucket
   AWS_REGION: eu-west-2
   AWS_PLATFORM: Docker
